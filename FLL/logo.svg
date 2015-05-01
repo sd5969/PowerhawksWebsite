@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3052"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="273.87719"
+     inkscape:cy="518.33786"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="769"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ababab;fill-opacity:1;stroke:#4e4e4e;stroke-width:3.29835963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 188.03279,395.14213 22.48995,18.32511 274.04437,0 39.14919,9.99555 37.48326,25.82181 98.28948,24.15588 38.50965,39.98217 c 4.71195,21.49825 -4.35822,46.64587 -4.35822,46.64587 l -70.85229,88.7313 4.21536,-34.5888 c 5.30094,-11.77986 -29.15367,-24.15591 -29.15367,-24.15591 l -241.55886,0.83298 -14.26137,-10.58454 18.08118,-27.63066 -8.32962,-4.70325 0.345,-12.05703 5.83077,-3.33183 -39.14919,-34.15147 71.63469,-46.64583 57.08745,-0.88347 52.86345,29.20419 58.30731,3.33183 c 0,0 -36.82344,-4.38126 -106.61907,-49.14474 l -61.63914,-0.83295 -89.12688,59.97324 -162.42754,-0.83295 49.14474,-97.4565 z"
+       id="path3058"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccc"
+       inkscape:export-filename="/windows/XAMPP/htdocs/FLL/path3836.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#cccccc;stroke:#6a6a6a;stroke-width:3.29835963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 370.84941,490.32232 38.28456,-21.49824 25.32669,-0.2946 71.85711,27.38814 20.32026,0 c -10.89636,17.9643 -49.76991,30.33316 -49.76991,30.33316 l -69.20664,-1.47249 -36.81207,-34.45609 0,6e-5 z"
+       id="path3832"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/windows/XAMPP/htdocs/FLL/path3836.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;stroke:#6a6a6a;stroke-width:3.29835963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 427.09827,468.82408 -0.2946,7.36239 c -10.01286,3.82845 -13.5468,18.25881 -13.5468,18.25881 8.83488,18.25875 30.33312,19.14225 30.33312,19.14225 52.12587,3.53398 63.31671,-17.66976 63.31671,-17.66976 l -71.85708,-27.38817 -7.95138,0.2946 0,-6e-5 z"
+       id="path3834"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/windows/XAMPP/htdocs/FLL/path3836.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ababab;fill-opacity:1;stroke:#4e4e4e;stroke-width:3.29835963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 132.64082,511.75672 169.50769,-0.41646 37.69152,36.02557 -25.61355,43.73049 -169.29946,0 -42.27279,-26.4465 29.98659,-52.8931 z"
+       id="path3836"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

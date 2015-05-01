@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^calendar$ http://powerhawks.org/#calendar [NE,NC]
+RewriteRule ^calendar/$ http://powerhawks.org/#calendar [NE,NC]
+
+RewriteRule ^sponsor$ sponsor.php [NC]
+RewriteRule ^sponsor/$ sponsor.php [NC]
+
+RewriteRule ^sponsorship$ sponsor.php [NC]
+RewriteRule ^sponsorship/$ sponsor.php [NC]
