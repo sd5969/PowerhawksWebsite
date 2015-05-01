@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Robotics Application</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+<script type="text/javascript" src="calendar.js"></script>
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>Power Hawks Robotics Application</a></h1>
+		<form id="form_236612" class="appnitro"  method="post" action="thanks.php">
+		  <div class="form_description">
+			<h2>Power Hawks Robotics Application</h2>
+			<p>All students appyling for either the JV robotics team or the Varsity FRC team must fill out the form below. No incomplete forms will be accepted.</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+					I am applying for:<br />
+					<input name="element_0_1" class="element text" type="radio" value="FRC" /> FRC<br />
+					<input name="element_0_1" class="element text" type="radio" value="FTC" /> FTC<br /><br />
+		<label class="description" for="element_1">Name </label>
+		<span>
+			<input id="element_1_1" name= "element_1_1" class="element text" maxlength="300" size="8" value=""/>
+			<label>First</label>
+		</span>
+		<span>
+			<input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
+			<label>Last</label>
+		</span> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Address </label>
+		
+		<div>
+			<input id="element_2_1" name="element_2_1" class="element text large" value="" type="text">
+			<label for="element_2_1">Street Address</label>
+		</div>
+	
+		<div>
+			<input id="element_2_2" name="element_2_2" class="element text large" value="" type="text">
+			<label for="element_2_2">Address Line 2</label>
+		</div>
+	
+		<div class="left">
+			<input id="element_2_3" name="element_2_3" class="element text medium" value="" type="text">
+			<label for="element_2_3">City</label>
+		</div>
+	
+		<div class="right">
+			<input id="element_2_4" name="element_2_4" class="element text medium" value="" type="text">
+			<label for="element_2_4">State / Province / Region</label>
+		</div>
+	
+		<div class="left">
+			<input id="element_2_5" name="element_2_5" class="element text medium" maxlength="15" value="" type="text">
+			<label for="element_2_5">Postal / Zip Code</label>
+		</div>
+	
+		<div class="right">
+			<select class="element select medium" id="element_2_6" name="element_2_6"> 
+			<option value="" selected="selected">USA</option>
+			</select>
+		<label for="element_2_6">Country</label>
+	</div> 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Birthday </label>
+		<span>
+			<input id="element_6_1" name="element_6_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_6_1">MM</label>
+		</span>
+		<span>
+			<input id="element_6_2" name="element_6_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_6_2">DD</label>
+		</span>
+		<span>
+	 		<input id="element_6_3" name="element_6_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_6_3">YYYY</label>
+		</span>
+	
+		<span id="calendar_6">
+			<img id="cal_img_6" class="datepicker" src="calendar.gif" alt="Pick a date.">	
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_6_3",
+			baseField    : "element_6",
+			displayArea  : "calendar_6",
+			button		 : "cal_img_6",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectDate
+			});
+		</script>
+		 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Home Phone </label>
+		<span>
+			<input id="element_3_1" name="element_3_1" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_3_1">(###)</label>
+		</span>
+		<span>
+			<input id="element_3_2" name="element_3_2" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_3_2">###</label>
+		</span>
+		<span>
+	 		<input id="element_3_3" name="element_3_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_3_3">####</label>
+		</span>
+		 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Cell Phone </label>
+		<span>
+			<input id="element_4_1" name="element_4_1" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_4_1">(###)</label>
+		</span>
+		<span>
+			<input id="element_4_2" name="element_4_2" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_4_2">###</label>
+		</span>
+		<span>
+	 		<input id="element_4_3" name="element_4_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_4_3">####</label>
+		</span>
+		 
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Email </label>
+		<div>
+			<input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Past FIRST Experiences (Jr. FLL, FLL, FTC, & FRC) explain: </label>
+		<div>
+			<textarea id="element_7" name="element_7" class="element textarea medium"></textarea> 
+		</div> 
+		</li>		<li class="section_break">
+			<h3>Parent #1's Information Below:</h3>
+			<p></p>
+		</li>		<li id="li_9" >
+		<label class="description" for="element_9">Name </label>
+		<span>
+			<input id="element_9_1" name= "element_9_1" class="element text" maxlength="255" size="8" value=""/>
+			<label>First</label>
+		</span>
+		<span>
+			<input id="element_9_2" name= "element_9_2" class="element text" maxlength="255" size="14" value=""/>
+			<label>Last</label>
+		</span> 
+		</li>		<li id="li_10" >
+		<label class="description" for="element_10">Cell Phone </label>
+		<span>
+			<input id="element_10_1" name="element_10_1" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_10_1">(###)</label>
+		</span>
+		<span>
+			<input id="element_10_2" name="element_10_2" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_10_2">###</label>
+		</span>
+		<span>
+	 		<input id="element_10_3" name="element_10_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_10_3">####</label>
+		</span>
+		 
+		</li>		<li id="li_11" >
+		<label class="description" for="element_11">Email </label>
+		<div>
+			<input id="element_11" name="element_11" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li class="section_break">
+			<h3>Parent #2</h3>
+			<p></p>
+		</li>		<li id="li_12" >
+		<label class="description" for="element_12">Name </label>
+		<span>
+			<input id="element_12_1" name= "element_12_1" class="element text" maxlength="255" size="8" value=""/>
+			<label>First</label>
+		</span>
+		<span>
+			<input id="element_12_2" name= "element_12_2" class="element text" maxlength="255" size="14" value=""/>
+			<label>Last</label>
+		</span> 
+		</li>		<li id="li_13" >
+		<label class="description" for="element_13">Cell Phone </label>
+		<span>
+			<input id="element_13_1" name="element_13_1" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_13_1">(###)</label>
+		</span>
+		<span>
+			<input id="element_13_2" name="element_13_2" class="element text" size="3" maxlength="3" value="" type="text"> -
+			<label for="element_13_2">###</label>
+		</span>
+		<span>
+	 		<input id="element_13_3" name="element_13_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_13_3">####</label>
+		</span>
+		 
+		</li>		<li id="li_14" >
+		<label class="description" for="element_14">Email </label>
+		<div>
+			<input id="element_14" name="element_14" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>	<!-- 	<li id="li_15" >
+		<label class="description" for="element_15">Do you have any experience in the following areas? [check all that apply].  This helps the team understand its talent base, but does not commit you to a specific role. </label>
+		<span>
+			<input id="element_15_1" name="element_15_1" class="element checkbox" type="checkbox" value="AutoCAD " />
+<label class="choice" for="element_15_1">AutoCAD</label>
+<input id="element_15_2" name="element_15_2" class="element checkbox" type="checkbox" value="3DS Max, " />
+<label class="choice" for="element_15_2">3-D Studio Max</label>
+<input id="element_15_3" name="element_15_3" class="element checkbox" type="checkbox" value="Animation, " />
+<label class="choice" for="element_15_3">Computer Animation Software</label>
+<input id="element_15_4" name="element_15_4" class="element checkbox" type="checkbox" value="Machinery, " />
+<label class="choice" for="element_15_4">Machine Tools</label>
+<input id="element_15_5" name="element_15_5" class="element checkbox" type="checkbox" value="Programming, " />
+<label class="choice" for="element_15_5">Programming</label>
+<input id="element_15_6" name="element_15_6" class="element checkbox" type="checkbox" value="Welding, " />
+<label class="choice" for="element_15_6">Welding</label>
+<input id="element_15_7" name="element_15_7" class="element checkbox" type="checkbox" value="Web Design, " />
+<label class="choice" for="element_15_7">Web Design</label>
+<input id="element_15_8" name="element_15_8" class="element checkbox" type="checkbox" value="Graphic Design, " />
+<label class="choice" for="element_15_8">Graphic Design</label>
+<input id="element_15_9" name="element_15_9" class="element checkbox" type="checkbox" value="Journalism, " />
+<label class="choice" for="element_15_9">Journalism</label>
+<input id="element_15_10" name="element_15_10" class="element checkbox" type="checkbox" value="Pneumatics, " />
+<label class="choice" for="element_15_10">Pneumatics</label>
+<input id="element_15_11" name="element_15_11" class="element checkbox" type="checkbox" value="Electronics, " />
+<label class="choice" for="element_15_11">Electronics</label>
+<input id="element_15_12" name="element_15_12" class="element checkbox" type="checkbox" value="Carpentry, " />
+<label class="choice" for="element_15_12">Carpentry</label>
+<input id="element_15_13" name="element_15_13" class="element checkbox" type="checkbox" value="R/C Hobbies, " />
+<label class="choice" for="element_15_13">R/C Hobbies</label>
+<input id="element_15_14" name="element_15_14" class="element checkbox" type="checkbox" value="Robotics, " />
+<label class="choice" for="element_15_14">Robotics</label>
+<input id="element_15_15" name="element_15_15" class="element checkbox" type="checkbox" value="Finance, " />
+<label class="choice" for="element_15_15">Budget / Finance</label>
+<input id="element_15_16" name="element_15_16" class="element checkbox" type="checkbox" value="Video Development, " />
+<label class="choice" for="element_15_16">Video Production</label>
+<input id="element_15_17" name="element_15_17" class="element checkbox" type="checkbox" value="Lego Mindstorms, " />
+<label class="choice" for="element_15_17">LEGO Mindstorms</label>
+<input id="element_15_18" name="element_15_18" class="element checkbox" type="checkbox" value="Fundraising, " />
+<label class="choice" for="element_15_18">Fundraising</label>
+<input id="element_15_19" name="element_15_19" class="element checkbox" type="checkbox" value="PR, " />
+<label class="choice" for="element_15_19">Public Speaking</label>
+<input id="element_15_20" name="element_15_20" class="element checkbox" type="checkbox" value="Legos, " />
+<label class="choice" for="element_15_20">Legos</label>
+
+		</span> 
+		</li>	-->	<li class="section_break">
+			<h3>Extracurricular Activities</h3>
+			<p></p>
+		</li>	<!--	<li id="li_18" >
+		<label class="description" for="element_18">Please list all extracurricular activities, hours per week, and time of year that it happens. </label>
+		<div>
+			<textarea id="element_18" name="element_18" class="element textarea small"></textarea> 
+		</div> 
+		</li>	-->	<li id="li_19" >
+		<label class="description" for="element_19">What other roles/responsibilities have you hold in the past in other organizations? </label>
+		<div>
+			<textarea id="element_19" name="element_19" class="element textarea medium"></textarea> 
+		</div> 
+		</li>
+		<li class="section_break">
+		  <h3>Robotics Team Responsibilities!</h3>
+		  <p></p>
+		  </li>
+        </li>		<li id="li_20" >
+		<label class="description" for="element_20_1">
+		Take a look at the organization chart for FRC and FTC next year, <a target="_blank" href="orgChart.pdf">here</a>.<br />
+		Which team(s), business and/or build, would you like to commit to (and in what order of preference)?<br />
+		<textarea id="element_20_1" name="element_20_1" class="element textarea medium">1.
+2.
+3.
+4.
+5.
+6.
+7.</textarea>
+		</label><br />
+		<label class="description" for="element_20">
+There are 7 FRC leadership positions to apply for, and 4 FTC positions, 
+which will all be appointed.  
+The rest 
+will be elected.  Keeping that in mind, please explain which position(s) you would like to 
+apply for and 
+why.<br /><br />
+		These are positions you may apply for:<br />
+		<br />
+		FRC -<br />
+		<ul>
+		<li>FRC Team Executive Officer</li>
+		<li>Business Operations Officer</li>
+		<li>Financial Officer</li>
+		<li>Build Operations Officer</li>
+		<li>Shop Manager</li>
+		<li>Events Manager</li>
+		<li>Support Manager</li>
+		</ul><br />
+		FTC -<br />
+		<ul>
+		<li>Team 3583 Captain</li>
+		<li>Team 3583 Co-Captain</li>
+		<li>Team 3796 Captain</li>
+		<li>Team 3796 Co-Captain</li>
+		</ul>
+        </label>
+		<div>
+  <textarea id="element_20" name="element_20" class="element textarea medium"></textarea>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="236612" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+		</div>
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+	</body>
+</html>
