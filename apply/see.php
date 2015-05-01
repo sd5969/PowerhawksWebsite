@@ -6,7 +6,7 @@
 <?php
 	if($_POST[password] == "thegame") {
 		include("../includes/connect.php");
-		mysql_select_db("powerhaw_form");
+		mysql_select_db("database");
 		$result = mysql_query("SELECT * FROM applicants");
 ?>
 <table border=1>

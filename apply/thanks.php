@@ -14,7 +14,7 @@
 <?php
 	if(isset($_POST[element_1_1])) {
 	include("../includes/connect.php");
-	mysql_select_db("powerhaw_form");
+	mysql_select_db("database");
 	$type = $_POST[element_0_1];
 	$firstname = $_POST[element_1_1];
 	$lastname = $_POST[element_1_2];
